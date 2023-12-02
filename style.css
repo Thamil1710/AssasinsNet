@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+.fntpop {
+    font-family: 'Poppins', sans-serif;
+}
+.fntbabe {
+    font-family: 'Bebas Neue', sans-serif;
+}
+@media (max-width:520px) {
+    .mediafont1 {
+        font-size: 9px;
+    }
+    .mediafont {
+        font-size: 13px;
+    }
+}
+
+
+.bcgimg {
+    background-image: url(./asset/bg.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right top;
+    width: auto;
+    min-height: 758px;
+}
+
+.smallnav {
+    background-color: rgba(21, 26, 32, 10);
+}
+
+.w-20 {
+    height: 530px;
+    background-color:rgba(30, 36, 44, 1);
+
+}
+ul {
+    list-style: none;
+}
+
+body {
+    background-color: rgb(21, 26, 32);
+    /* background-color: white; */
+}
+ul li {
+    margin-bottom: 34px;
+}
+.font {
+    font-size: 13px;
+}
+.fntclr {
+    color: rgba(255, 195, 13, 1);
+}
+.lh {
+    line-height: 25px;
+}
+.fs {
+    font-size: 24px;
+}
+.column-gap {
+    column-gap:x;
+}
+
+
+
+.font2 {
+    font-size: 16px;
+}
+.fs1 {
+font-size:48px ;
+}
+.fs2 {
+    font-size:18px ;
+}
+.posicss1 {
+    bottom: 0%;
+    right: 0%;
+    left: 0%;
+}
+.overlay {
+    position: absolute;
+    top:10%;
+    left: 0%;
+    bottom: 6%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(21, 26, 32, 0), rgba(21, 26, 32, 0.99));
+}
+
+.fs3 {
+    font-size: 22px;
+}
+.btnclr {
+    background-color: rgba(255, 195, 13, 1);
+}
+.btn1 {
+    border-top-left-radius: 13px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 13px;
+}
+.fs4 {
+    font-size: 36px;
+}
+.fs5 {
+    font-size: 10px;
+}
+.fs6 {
+    font-size: 25px;
+}
+.fs7 {
+    font-size: 24;
+}
+.fs8 {
+font-size:48px ;
+}
+/* .dimedia {
+    display: block;
+} */
+@media (max-width:766px) {
+.font2 {
+    font-size:10px ;
+}
+.fs1 {
+font-size:28px ;
+}
+.fs2 {
+    font-size:11px ;
+}
+.fs3 {
+    font-size: 11px;
+}
+.fs4 {
+    font-size: 20px;
+}
+.fs6 {
+    font-size: 20px;
+}
+.fs7{
+    font-size: 32px;
+}
+}
+@media (max-width:600px) {
+    .fs8{
+    font-size: 22px;
+}
+.fs6 {
+    font-size: 12px;
+}
+
+}
+@media (max-width:450px) {
+    .fs4 {
+        font-size: 15px;
+    }
+    .fs1 {
+font-size:21px ;
+}
+ .fs8{
+    font-size: 16px;
+}
+}
+.bgcfooter {
+    background-color:rgba(30, 36, 44, 1);
+}
